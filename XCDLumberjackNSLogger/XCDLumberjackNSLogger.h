@@ -1,9 +1,27 @@
 //
-//  Copyright (c) 2015 Cédric Luthi. All rights reserved.
+//  XCDLumberjackNSLogger.h
+//  XCDLumberjackNSLogger
 //
+//  Created by Ben Flannery on 1/28/16.
+//  Copyright © 2016 0xced. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+//! Project version number for XCDLumberjackNSLogger.
+FOUNDATION_EXPORT double XCDLumberjackNSLoggerVersionNumber;
+
+//! Project version string for XCDLumberjackNSLogger.
+FOUNDATION_EXPORT const unsigned char XCDLumberjackNSLoggerVersionString[];
+
+// In this header, you should import all the public headers of your framework using statements like #import <XCDLumberjackNSLogger/PublicHeader.h>
 
 #import <CocoaLumberjack/CocoaLumberjack.h>
 #import <NSLogger/LoggerClient.h>
+
+//
+//  Copyright (c) 2015 Cédric Luthi. All rights reserved.
+//
 
 /**
  *  The `XCDLumberjackNSLogger` class implements a [CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack) logger which sends logs to [NSLogger](https://github.com/fpillet/NSLogger).

@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA0CE9921C5A5E12001BD5D1 /* XCDLumberjackNSLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0CE9911C5A5E12001BD5D1 /* XCDLumberjackNSLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA0CE99C1C5A5F74001BD5D1 /* XCDLumberjackNSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0CE99A1C5A5F74001BD5D1 /* XCDLumberjackNSLogger.m */; };
+		EA0CE99E1C5A6011001BD5D1 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0CE99D1C5A6011001BD5D1 /* CocoaLumberjack.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA0CE98E1C5A5E12001BD5D1 /* XCDLumberjackNSLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCDLumberjackNSLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0CE9911C5A5E12001BD5D1 /* XCDLumberjackNSLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCDLumberjackNSLogger.h; sourceTree = "<group>"; };
+		EA0CE9931C5A5E12001BD5D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA0CE99A1C5A5F74001BD5D1 /* XCDLumberjackNSLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCDLumberjackNSLogger.m; sourceTree = "<group>"; };
+		EA0CE99D1C5A6011001BD5D1 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = Carthage/Build/iOS/CocoaLumberjack.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA0CE98A1C5A5E12001BD5D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0CE99E1C5A6011001BD5D1 /* CocoaLumberjack.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA0CE9841C5A5E12001BD5D1 = {
+			isa = PBXGroup;
+			children = (
+				EA0CE99D1C5A6011001BD5D1 /* CocoaLumberjack.framework */,
+				EA0CE9901C5A5E12001BD5D1 /* XCDLumberjackNSLogger */,
+				EA0CE98F1C5A5E12001BD5D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA0CE98F1C5A5E12001BD5D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA0CE98E1C5A5E12001BD5D1 /* XCDLumberjackNSLogger.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA0CE9901C5A5E12001BD5D1 /* XCDLumberjackNSLogger */ = {
+			isa = PBXGroup;
+			children = (
+				EA0CE99A1C5A5F74001BD5D1 /* XCDLumberjackNSLogger.m */,
+				EA0CE9911C5A5E12001BD5D1 /* XCDLumberjackNSLogger.h */,
+				EA0CE9931C5A5E12001BD5D1 /* Info.plist */,
+			);
+			path = XCDLumberjackNSLogger;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EA0CE98B1C5A5E12001BD5D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0CE9921C5A5E12001BD5D1 /* XCDLumberjackNSLogger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EA0CE98D1C5A5E12001BD5D1 /* XCDLumberjackNSLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA0CE9961C5A5E12001BD5D1 /* Build configuration list for PBXNativeTarget "XCDLumberjackNSLogger" */;
+			buildPhases = (
+				EA0CE9891C5A5E12001BD5D1 /* Sources */,
+				EA0CE98A1C5A5E12001BD5D1 /* Frameworks */,
+				EA0CE98B1C5A5E12001BD5D1 /* Headers */,
+				EA0CE98C1C5A5E12001BD5D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XCDLumberjackNSLogger;
+			productName = XCDLumberjackNSLogger;
+			productReference = EA0CE98E1C5A5E12001BD5D1 /* XCDLumberjackNSLogger.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA0CE9851C5A5E12001BD5D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = 0xced;
+				TargetAttributes = {
+					EA0CE98D1C5A5E12001BD5D1 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = EA0CE9881C5A5E12001BD5D1 /* Build configuration list for PBXProject "XCDLumberjackNSLogger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA0CE9841C5A5E12001BD5D1;
+			productRefGroup = EA0CE98F1C5A5E12001BD5D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA0CE98D1C5A5E12001BD5D1 /* XCDLumberjackNSLogger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA0CE98C1C5A5E12001BD5D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA0CE9891C5A5E12001BD5D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0CE99C1C5A5F74001BD5D1 /* XCDLumberjackNSLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EA0CE9941C5A5E12001BD5D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EA0CE9951C5A5E12001BD5D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA0CE9971C5A5E12001BD5D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = XCDLumberjackNSLogger/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.0xced.XCDLumberjackNSLogger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EA0CE9981C5A5E12001BD5D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = XCDLumberjackNSLogger/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.0xced.XCDLumberjackNSLogger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA0CE9881C5A5E12001BD5D1 /* Build configuration list for PBXProject "XCDLumberjackNSLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0CE9941C5A5E12001BD5D1 /* Debug */,
+				EA0CE9951C5A5E12001BD5D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA0CE9961C5A5E12001BD5D1 /* Build configuration list for PBXNativeTarget "XCDLumberjackNSLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0CE9971C5A5E12001BD5D1 /* Debug */,
+				EA0CE9981C5A5E12001BD5D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA0CE9851C5A5E12001BD5D1 /* Project object */;
+}
